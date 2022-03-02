@@ -118,14 +118,12 @@
 /* CARDS' CONTAINER */
 #root {
     max-width: 1280px;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin: 150px auto;
 
     display: flex;
     flex-wrap: wrap;
     gap: 100px 20px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .card {
