@@ -60,11 +60,12 @@ const build = (book) => {
             <h2 class="title">${book.title}</h2>
             <p class="text">${book.text}</p>
         </div>
-
+        <div class='buttonHolder'>
         <button>
                 read more
                 <span class="arrow material-icons">arrow_forward</span>
         </button>
+        </div>
         
     </div>
     `
