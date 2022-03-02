@@ -79,3 +79,34 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
+
+  /* HEADER */
+  .topnav {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    
+    width: 100%;
+    height: 40px;
+    padding: 0 15px 0 10px;
+    
+    background-color: var(--secondary);
+    color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 10; */
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.topnav h1 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
