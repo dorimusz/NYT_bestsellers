@@ -130,24 +130,25 @@
 
 .card {
     width: 350px;
-    height: 400px;
-    padding: 40px;
-
+    
     position: relative;
-
 
     display: flex;
     flex-direction: column;
 
     background-color: var(--primary);
     color: var(--secondary);
-    border: 1px solid var(--secondary);
+
     font-family: 'Overpass', sans-serif;
 
 }
-/* .cardHolder {
 
-} */
+.cardHolder {
+padding: 40px;
+border: 1px solid var(--secondary);
+height: 420px;
+}
+
 .number {
     position: absolute;
     top: 0;
@@ -173,4 +174,9 @@
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
 }
