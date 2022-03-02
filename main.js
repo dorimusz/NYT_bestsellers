@@ -51,3 +51,30 @@ bestsellers = [
     }
 ]
 
+const build = (book) => {
+    return `
+    <div class='card'>
+        <div class='cardHolder>
+            <div class='number'> ${bestsellers.indexOf(book) + 1}</div>
+            <h3 class='sub'>${book.sub}</h3>
+            <h2 class='title'>${book.title}</h2>
+            <p class='text'>${book.text}</p>
+        </div>
+        <button>
+            read more
+            <span></span>
+        </button>
+    </div>
+    `
+}
+
+function loadEvent() {
+    const root = document.querySelector('#root')
+    for (const book of bestsellers) {
+        root.insertAdjacentHTML('beforeend', build(book))
+    }
+
+    console.log('The page has loaded.')
+}
+
+window.addEventListener("load", loadEvent)
