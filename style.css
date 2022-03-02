@@ -143,8 +143,11 @@
     color: var(--secondary);
     border: 1px solid var(--secondary);
     font-family: 'Overpass', sans-serif;
-}
 
+}
+/* .cardHolder {
+
+} */
 .number {
     position: absolute;
     top: 0;
@@ -156,4 +159,18 @@
     padding-top: 3px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
