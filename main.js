@@ -62,7 +62,7 @@ const build = (book) => {
         </div>
         <button>
             read more
-            <span></span>
+            <span class="arrow material-icons">arrow_forward</span>
         </button>
     </div>
     `
